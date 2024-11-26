@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+joblib
+shap
+sqlite3
+matplotlib
+plotly
+scikit-learn
+fpdf
+python-dotenv
+openai

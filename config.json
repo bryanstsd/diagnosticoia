@@ -1,0 +1,26 @@
+{
+    "model": {
+        "threshold": 0.5,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "metric": "accuracy"
+    },
+    "interface": {
+        "theme": "Claro",
+        "language": "Espa\u00f1ol",
+        "show_probabilities": true,
+        "show_plots": true
+    },
+    "notifications": {
+        "email": "",
+        "notify_high_risk": true,
+        "report_frequency": "Semanal",
+        "notify_updates": true
+    },
+    "database": {
+        "retention_days": 180,
+        "auto_backup": true,
+        "backup_frequency": "Semanal",
+        "backup_location": "./backups"
+    }
+}
