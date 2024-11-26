@@ -2,19 +2,6 @@
 
 Sistema de apoyo al diagnóstico médico basado en múltiples modelos de machine learning, con énfasis en Random Forest como modelo principal.
 
-## 📋 Contenido
-- [Descripción](#descripción)
-- [Características](#características)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Requisitos](#requisitos)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Modelos Implementados](#modelos-implementados)
-- [Métricas y Evaluación](#métricas-y-evaluación)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
-
 ## 📝 Descripción
 Sistema de apoyo al diagnóstico médico que utiliza técnicas de machine learning para analizar síntomas y signos vitales, proporcionando predicciones sobre posibles condiciones médicas. El sistema implementa múltiples modelos de clasificación, con Random Forest como modelo principal, y proporciona una interfaz web interactiva para su uso.
 
