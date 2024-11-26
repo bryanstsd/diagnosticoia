@@ -1,0 +1,224 @@
+/* Base Styles */
+body {
+    background-color: #f0f2f6;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Main Header */
+.main-header {
+    color: #1E88E5;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.sub-header {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    font-weight: 500;
+    border: none;
+    transition: all 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stDownloadButton>button {
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    font-weight: 500;
+    border: none;
+    transition: all 0.3s;
+}
+
+.stDownloadButton>button:hover {
+    background-color: #27ae60;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Fields */
+.stTextInput>div>div>input {
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    padding: 0.5rem;
+}
+
+.stSelectbox>div>div>div>div {
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Cards */
+.stCard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Metric Cards */
+.metric-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 150px;
+    transition: all 0.3s;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1E88E5;
+    margin: 10px 0;
+}
+
+.metric-label {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Status Indicators */
+.metric-normal {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.metric-warning {
+    color: #FFC107;
+    font-weight: bold;
+}
+
+.metric-danger {
+    color: #F44336;
+    font-weight: bold;
+}
+
+/* Tables */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table thead tr {
+    background-color: #1E88E5;
+    color: white;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 24px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #000;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #1E88E5;
+    color: white;
+}
+
+/* Containers */
+.symptom-container {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Expanders */
+.streamlit-expanderHeader {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+/* Sidebar */
+.sidebar .sidebar-content {
+    background-color: #ffffff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .main-header {
+        font-size: 2rem;
+    }
+    
+    .sub-header {
+        font-size: 1.2rem;
+    }
+    
+    .metric-card {
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
