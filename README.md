@@ -99,7 +99,7 @@ Random Forest (Principal)
 
 
 ## 🙋‍♂️ Autores
-- Tu Nombre ()
+- Jorge Iván Cujia Luquez,  Bryan Jose Salas Altahona, Jose Enrique Alvarez Lara
 
 
 
